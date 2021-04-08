@@ -12,12 +12,17 @@
     
 }
 
+header {
+    display: inline-block;
+}
+
 .linkCabecalho {
     font-family: 'Roboto Mono', monospace;
     
     background-color: rgb(217, 219, 218);
     padding: 1px;
     margin-left: 25px;
+    
     margin-top: 40px;
     display: inline-block;
     border-radius: 10px;
@@ -35,11 +40,37 @@
 .material-icons {
     display: inline-block;
     color: green;
-    float:right;
+    
     
 }
 
-.img {
-    height: 10px;
-    width: 10px;
+body {
+    display:inline-block; 
+    background-color: rgb(233, 210, 180);   
+}
+
+
+.CARD {
+    margin-top: 150px;
+    margin-bottom: 0px;
+    width: 850px;
+    height: 120px;
+    float: left;
+}
+
+.CARD img {
+    float: right;
+    border-radius: 5px;
+}
+.areaDeTexto {
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 200px;
+    width: 340px;
+    font-family:'Roboto Mono', monospace;
+}
+
+.direita {
+    background-color: aqua;
 }
