@@ -8,6 +8,7 @@
     
     width: 100%;
     height: 110px;
+    border-bottom: rgb(206, 194, 194) solid 1px;
     
     
 }
@@ -22,7 +23,7 @@ header {
 
 .linkCabecalho {
     font-family: 'Roboto Mono', monospace;
-    font-weight: 100;
+    font-weight: 300;
     
     background-color: rgb(242, 243, 237);
     padding: 3px;
@@ -32,7 +33,9 @@ header {
     display: inline-block;
     border-radius: 10px;
     vertical-align: top;
-    top: 30px
+    top: 30px;
+    text-decoration: none;
+    
 }
 
 .a {
