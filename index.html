@@ -15,9 +15,9 @@
 <body>
 
    <header class="cabecalho">
-        <div id="logo">LOGO</div>
+        <a href="./index.html" id="logo">LOGO</a>
         
-        <div class="linkCabecalho">Nossa História</div>
+        <a href="./nossaHistoria.html" class="linkCabecalho">Nossa História</a>
         <div class="linkCabecalho">Serviços</div>
         <div class="linkCabecalho">Despachante Náutico</div>
         <div class="linkCabecalho">Restaurante</div>
@@ -28,41 +28,63 @@
             <span class="material-icons">login</span>    
         </div>
     </header>
-    
-    <div class="CARD" >
-        <img  src="imagens/DJI_0027.JPG"
-        width="500px" height="250px" >
-        <div class="areaDeTexto">
-            <b>Infraestutura completa para sua embarcação</b><br>
-                Com mais de 20 anos de experiência no ramo náutico,
-                
-        </div>
-    </div>
-    
-    <div class="CARD">
-        <img  src="imagens/DJI_0079.JPG"
-        width="500px" height="250px" >
-        <div class="areaDeTexto">
-            <b>Tranquilidade e Segurança</b><br>
-                
-        </div>
-    </div>
 
-    <div class="CARD">
-        <img  src="imagens/DJI_0007.JPG"
-        width="500px" height="250px" >
-        <div class="areaDeTexto">
-            <b>Tranquilidade e Segurança</b><br>
+    <section id="conteudo">
+        <div class="CARD direita" >
+            <img  src="imagens/DJI_0027.JPG"
+            width="600px" height="250px" >
+            <div class="areaDeTexto">
+                <b>Infraestutura completa para sua embarcação</b><br>
+                Com mais de 20 anos de experiência no ramo náutico, oferecemos uma 
+                infraestutura completa e de qualidade, atendendo embarcações de 
+                diversos tamanhos, desde a limpeza até a manutenção preventiva.
                 
+            </div>
         </div>
-    </div>
+        
+        <div class="CARD ">
+            <img  src="imagens/DJI_0079.JPG"
+            width="600px" height="250px" >
+            <div class="areaDeTexto">
+                <b>Tranquilidade e Segurança</b><br>
+                
+            </div>
+        </div>
+        
+        <div class="CARD">
+            <img  src="imagens/DJI_0007.JPG"
+            width="600px" height="250px" >
+            <div class="areaDeTexto">
+                <b>Excelente localização</b><br>
+                
+            </div>
+        </div>
+    
+
+    </section>
     
     
     
     
     
     
+    <footer>
+        <div class="rodape">
+          
+    
+        </div>
+    </footer>
+    <script>
+    document.querySelectorAll('a').forEach(link => {
+        link.onclick = function(e) {
+            e.preventDefault();
+    
+            const conteudo = document.getElementById('conteudo')
+            fetch(link.href)
+                .then(resp => resp.text())
+                .then(html => conteudo.innerHTML = html)
+        }
+    })
+    </script>
 </body>
-<footer>
-
 </html>

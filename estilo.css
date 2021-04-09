@@ -1,7 +1,7 @@
 .cabecalho {
     box-sizing: border-box;
     position: absolute;
-    background-color: rgb(179, 185, 183);
+    background-color: rgb(231, 231, 197);
     top: 0;
     left: 0;
     display: inline-block;
@@ -12,11 +12,30 @@
     
 }
 
+#conteudo {
+    margin-top: 110px;
+}
+
 header {
     display: inline-block;
 }
 
 .linkCabecalho {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 100;
+    
+    background-color: rgb(242, 243, 237);
+    padding: 3px;
+    margin-left: 25px;
+    
+    margin-top: 40px;
+    display: inline-block;
+    border-radius: 10px;
+    vertical-align: top;
+    top: 30px
+}
+
+.a {
     font-family: 'Roboto Mono', monospace;
     
     background-color: rgb(217, 219, 218);
@@ -29,6 +48,7 @@ header {
     vertical-align: top;
     top: 30px
 }
+
 
 #logo{
     display: inline-block;
@@ -46,15 +66,15 @@ header {
 
 body {
     display:inline-block; 
-    background-color: rgb(233, 210, 180);   
+    background-color: rgb(243, 235, 225);   
 }
 
 
 .CARD {
     margin-top: 150px;
     margin-bottom: 0px;
-    width: 850px;
-    height: 120px;
+    width: 100%;
+    height: 250px;
     float: left;
 }
 
@@ -66,11 +86,19 @@ body {
     
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-left: 100px;
     height: 200px;
-    width: 340px;
+    width: 500px;
     font-family:'Roboto Mono', monospace;
+    text-align: left;
 }
 
 .direita {
-    background-color: aqua;
+    /*background-color: aqua;
+    */float: right;
+}
+
+.rodape {
+    margin-top: 150px;
+    
 }
