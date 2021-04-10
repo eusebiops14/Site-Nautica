@@ -1,4 +1,4 @@
-document.querySelectorAll('a').forEach(link => {
+/*document.querySelectorAll('a').forEach(link => {
     link.onclick = function(e) {
         e.preventDefault();
 
@@ -7,4 +7,4 @@ document.querySelectorAll('a').forEach(link => {
             .then(resp => resp.text())
             .then(html => conteudo.innerHTML = html)
     }
-})
+})*/

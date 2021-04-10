@@ -1,6 +1,11 @@
+* {
+    display: block;
+    box-sizing: border-box;
+}
+
 .cabecalho {
     box-sizing: border-box;
-    position: absolute;
+    /*position: absolute;*/
     background-color: rgb(231, 231, 197);
     top: 0;
     left: 0;
@@ -14,21 +19,17 @@
 }
 
 #conteudo {
-    margin-top: 110px;
+    margin-top: 109px;
 }
 
-header {
-    display: inline-block;
-}
+
 
 .linkCabecalho {
     font-family: 'Roboto Mono', monospace;
     font-weight: 300;
-    
     background-color: rgb(242, 243, 237);
     padding: 3px;
     margin-left: 25px;
-    
     margin-top: 40px;
     display: inline-block;
     border-radius: 10px;
@@ -40,11 +41,9 @@ header {
 
 .a {
     font-family: 'Roboto Mono', monospace;
-    
     background-color: rgb(217, 219, 218);
     padding: 1px;
     margin-left: 25px;
-    
     margin-top: 40px;
     display: inline-block;
     border-radius: 10px;
@@ -68,21 +67,24 @@ header {
 }
 
 body {
-    display:inline-block; 
+    display: block;
     background-color: rgb(243, 235, 225);   
 }
 
+header section {
+    display: block;
+}
 
 .CARD {
-    margin-top: 150px;
+    margin-top: 80px;
     margin-bottom: 0px;
     width: 100%;
-    height: 250px;
-    float: left;
+    height: 320px;
+    float: right;
 }
 
 .CARD img {
-    float: right;
+    float: left;
     border-radius: 5px;
 }
 .areaDeTexto {
@@ -94,6 +96,7 @@ body {
     width: 500px;
     font-family:'Roboto Mono', monospace;
     text-align: left;
+    float: left;
 }
 
 .direita {
@@ -105,3 +108,18 @@ body {
     margin-top: 150px;
     
 }
+
+#HighMiddle  {
+    margin-top: 0px;
+    display: inline-block;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(214, 202, 202);
+    margin-bottom: 0px;
+}
+
+header div {
+    display: inline-block;
+}
+
+
