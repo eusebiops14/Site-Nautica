@@ -24,18 +24,22 @@
         
     } */   
     #um{
+        display: grid;
         background-color: red;
         height: 500px;
         width: 1000px;    
         border: solid 1px #000;
-        display: inline-block;
+        grid-template-rows: 50% 50%;
+        grid-template-columns: 25% 25% 25% 25%;
     }
     
     #dois{
         
         background-color: blue;
-        height: 100px;
-        width: 100px;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
     }
 
     #tres {
