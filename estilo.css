@@ -19,7 +19,7 @@
 }
 
 #conteudo {
-    margin-top: 109px;
+    margin-top: 15px;
     display: inline-block;
 }
 
@@ -88,8 +88,19 @@ header section {
 .CARD img {
     float: left;
     border-radius: 15px;
+    
 
 }
+
+.CARD-IN-LINE {
+    display: inline;
+}
+
+.CARD-IN-LINE img {
+    border-radius: 15px;
+
+}
+
 .areaDeTexto {
     
     margin-top: 0px;
