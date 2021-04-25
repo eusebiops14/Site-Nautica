@@ -19,7 +19,7 @@
 }
 
 #conteudo {
-    margin-top: 15px;
+    margin-top: 25px;
     display: inline-block;
 }
 
@@ -98,6 +98,7 @@ header section {
 
 .CARD-IN-LINE img {
     border-radius: 15px;
+    
 
 }
 
@@ -124,6 +125,7 @@ header section {
     background-color: rgb(214,202,202);
     height: 100px;
     width: 100%;
+    text-align: center;
 }
 
 #HighMiddle  {
