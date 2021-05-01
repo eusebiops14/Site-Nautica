@@ -4,7 +4,7 @@
 }*/
 
 .cabecalho {
-    box-sizing: border-box;
+    /*box-sizing: border-box;
     /*position: absolute;*/
     background-color: rgb(231, 231, 197);
     top: 0;
@@ -70,7 +70,7 @@
 
 body {
     display: block;
-    background-color: rgb(243, 235, 225);   
+    background-color: rgb(240, 238, 237);   
 }
 
 header section {
