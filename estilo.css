@@ -20,7 +20,7 @@
 
 #conteudo {
     margin-top: 25px;
-    display: inline-block;
+    /*display: inline-block;*/
 }
 
 
@@ -142,37 +142,7 @@ header div {
     display: inline-block;
 }
 
-.container {
-    display: grid;
-    height: 300px;
-    border-style:solid;
-    border-width: 5px;
-    border: red;
-    grid-template-columns: 200px 200px 200px;
-    grid-template-rows: 300px;
-    grid-template-areas: "cardFotoE  cardFotoD cardFotoE"
-                         
-                            
-    ;
 
-}
-
-.item {
-    border: black;
-    border-style: solid;
-    border-width: 5px;
-}
-
-.cardFotoE {
-    grid-area: cardFotoE;
-   
-}
-
-.cardFotoD {
-    grid-area: cardFotoD;
-    height: 100px;
-    width: 100px;
-}
 
 
 
