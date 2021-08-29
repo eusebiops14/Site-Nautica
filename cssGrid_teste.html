@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .item {
+            border: black;
+            border-style: solid;
+            border-width: 5px;
+        }
+       .container {
+           height: 1000px;
+           display: grid;
+           border:red;
+           border-width: 10px;
+           border-style: solid;
+           grid-template-columns: 30%,40%,30%;
+           grid-template-rows: repeat((5,auto)) ;
+           grid-template-areas: "header header header"
+                                "sidenav content content"
+                                "sidenav content content"
+                                "footer footer footer"
+           ;
+        }
+
+        .header{
+            grid-area: header;
+            background-color: blue;
+        }
+        .sidenav{
+            grid-area: sidenav;
+            background-color: chartreuse;
+        }
+        .content{
+            grid-area: content;
+            background-color: coral;
+        }
+        .footer{
+            grid-area: footer;
+            background-color: cyan;
+        }
+    </style>
+
+    <div class = "container" >
+        <div class="item header" >1 </div>
+        <div class="item header" >2 </div>
+        <div class="item header" >3 </div>
+        <div class="item sidenav" >
+            
+        </div>
+        <div class="item content" >5bbbbbbbbbb</div>
+        <div class="item content" >6</div>
+        <div class="item footer" >7</div>
+        <div class="item footer" >8</div>
+        <div class="item footer" >9</div>
+        
+        </div>
+</body>
+</html>
