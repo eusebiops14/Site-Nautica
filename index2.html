@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="estilo_index2.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+     
+</head>
+
+<body class= "paginaIndex2" >
+
+   <header class="paginaIndex2__cabecalho"></header>
+    <div class="paginaIndex2__HighMiddle"></div>
+
+    <main class="paginaIndex2__conteudo"></main>
+    <footer class="paginaIndex2__rodape"></footer>
+    
+    
+    
+    
+    
+    
+    <script>
+        document.querySelectorAll('a').forEach(link => {
+    link.onclick = function(e) {
+        e.preventDefault();
+
+        const conteudo = document.getElementById('conteudo')
+        fetch(link.href)
+            .then(resp => resp.text())
+            .then(html => conteudo.innerHTML = html)
+    }
+})
+    </script>
+</body>
+</html>

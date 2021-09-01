@@ -1,0 +1,32 @@
+.paginaIndex2 {
+    display: grid;
+    grid-template-areas: 
+        "paginaIndex2__cabecalho"
+        "paginaIndex2__HighMiddle"
+        "paginaIndex2__conteudo"
+        "paginaIndex2__rodape"
+    ;
+    grid-template-columns: auto;
+    grid-template-rows: 110px 20px 100vh 100px;
+    border: solid red;
+}
+
+.paginaIndex2__cabecalho {
+    grid-area: "paginaIndex2__cabecalho";
+    background: yellow;
+}
+
+.paginaIndex2__HighMiddle {
+    grid-area: "paginaIndex2__HighMiddle";
+    background: turquoise;
+}
+
+.paginaIndex2__conteudo {
+    grid-area:"paginaIndex2__conteudo" ;
+    background: tomato;
+}
+
+.paginaIndex2__rodape {
+    grid-area: "paginaIndex2__rodape";
+    background: green;
+}
