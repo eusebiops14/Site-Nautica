@@ -7,7 +7,7 @@
         "paginaIndex2__rodape"
     ;
     grid-template-columns: auto;
-    grid-template-rows: 110px 20px 100vh 100px;
+    grid-template-rows: 110px 20px 100vh 10px;
     border: solid red;
 }
 
@@ -48,27 +48,33 @@
 }
 
 .paginaIndex2__conteudo___card:nth-child(1) {
-    background:url(./imagens/DJI_0007.JPG) center / cover no-repeat;
+    background:url(./imagens/DJI_0148.JPG) center / cover no-repeat;
     grid-column: 1 / 3;
-    grid-row: 1 / 3;
-    margin: 0.5rem;
+    grid-row: 1 / 4;
+    margin: 0.1rem;
 }
 
 .paginaIndex2__conteudo___card:nth-child(2) {
     background:url(./imagens/DJI_0027.JPG) center / cover no-repeat;
     grid-column: 3 / 3;
     grid-row: 1 / 2;
-    margin: 0.5rem;
+    margin: 0.1rem;
 
 
 }
 
 .paginaIndex2__conteudo___card:nth-child(3) {
-    background:url(./imagens/DJI_0148.JPG) center / cover no-repeat;
+    background:url(./imagens/IMG_6398.JPEG) center / cover no-repeat;
     grid-column: 3 / 3;
     grid-row: 2 / 3;
+    margin: 0.1rem;
+}
 
-
+.paginaIndex2__conteudo___card:nth-child(4) {
+    background:url(./imagens/DJI_0350.JPG) center / cover no-repeat;
+    grid-column: 3 / 3;
+    grid-row: 3 / 4;
+    margin: 0.1rem;
 }
 
 
