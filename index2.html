@@ -38,7 +38,34 @@
         <div class="paginaIndex2__conteudo___card">1</div>
         <div class="paginaIndex2__conteudo___card">2</div>
         <div class="paginaIndex2__conteudo___card">3</div>
+        <div class="paginaIndex2__conteudo___card">4</div>
+        <div class="paginaIndex2__conteudo___card">5</div>
+        <div class="paginaIndex2__conteudo___card">6</div>
+        <div class="paginaIndex2__conteudo___card">7</div>
+        <div class="paginaIndex2__conteudo___card">8</div>
 
+        <div class="textArea">
+            <div class="textArea__Card1">
+                <div class="textArea__Card___Titulo">Infra Estrutura completa para sua Embarcação</div>
+                <div class="textArea__Card___Texto">
+                    Com mais de 20 anos de experiência no ramo náutico, 
+                    oferecemos uma infraestutura completa e de qualidade, 
+                    atendendo embarcações de diversos tamanhos, desde a 
+                    limpeza até a manutenção preventiva.
+                </div>
+            </div>
+
+            <div class="textArea__Card2">
+                <div class="textArea__Card___Titulo">Localização Privilegiada</div>
+                <div class="textArea__Card___Texto">
+                    Estamos a menos de 1 hora de carro da cidade de Sçao Paulo.
+                </div>
+            </div>
+
+
+        </div>
+
+        
 
     </main>
     <footer class="paginaIndex2__rodape"></footer>
@@ -50,13 +77,13 @@
     
     <script>
         document.querySelectorAll('a').forEach(link => {
-    link.onclick = function(e) {
-        e.preventDefault();
+            link.onclick = function(e) {
+                e.preventDefault();
 
-        const conteudo = document.getElementById('conteudo')
-        fetch(link.href)
-            .then(resp => resp.text())
-            .then(html => conteudo.innerHTML = html)
+                const conteudo = document.getElementsByClassName('paginaIndex2__conteudo')
+                fetch(link.href)
+                    .then(resp => resp.text())
+                    .then(html => conteudo.innerHTML = html)
     }
 })
     </script>
