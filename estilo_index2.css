@@ -7,24 +7,25 @@
         "paginaIndex2__rodape"
     ;
     grid-template-columns: auto;
-    grid-template-rows: 110px 20px 100vh 10px;
-    border: solid red;
+    grid-template-rows: 110px 20px 100vh 100px;
+    background: rgb(236, 233, 227); 
+    
 }
 
 /* --------------------Cabecalho------------------------------------*/
 .paginaIndex2__cabecalho {
     grid-area: "paginaIndex2__cabecalho";
-    background: #fdfdfd;
+    background: rgb(236, 233, 227);
     display: inline-flex;
 
 }
 
 .paginaIndex2__cabecalho___linkCabecalho {
     margin-top: 2.5rem;
-    margin-left: 4rem;
+    margin-left: 0.5rem;
     background-color: rgb(206, 194, 194);
     height: 1.9rem;
-    width: 10rem;
+    width: 9rem;
     border-radius: 10px;    
     text-align: center;
     vertical-align: text-bottom;
@@ -45,36 +46,109 @@
     grid-template-columns: 33.33% 33.33% 33.33%;
     grid-template-rows: 25% 25% 25% 25%;
     margin-right: 1rem;
+    width: inherit;
 }
 
 .paginaIndex2__conteudo___card:nth-child(1) {
-    background:url(./imagens/DJI_0148.JPG) center / cover no-repeat;
-    grid-column: 1 / 3;
-    grid-row: 1 / 4;
-    margin: 0.1rem;
+    background:url(./imagens/DJI_0007.JPG) center / cover no-repeat;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    margin: 0.2rem;
 }
 
 .paginaIndex2__conteudo___card:nth-child(2) {
     background:url(./imagens/DJI_0027.JPG) center / cover no-repeat;
     grid-column: 3 / 3;
     grid-row: 1 / 2;
-    margin: 0.1rem;
+    margin: 0.2rem;
 
 
 }
 
 .paginaIndex2__conteudo___card:nth-child(3) {
-    background:url(./imagens/IMG_6398.JPEG) center / cover no-repeat;
-    grid-column: 3 / 3;
+    background:url(./imagens/DJI_0148.JPG) center / cover no-repeat;
+    grid-column: 1 / 2;
     grid-row: 2 / 3;
-    margin: 0.1rem;
+    margin: 0.2rem;
+
+
 }
 
 .paginaIndex2__conteudo___card:nth-child(4) {
-    background:url(./imagens/DJI_0350.JPG) center / cover no-repeat;
+    background:url(./imagens/IMG_8310.JPEG) center / cover no-repeat;
     grid-column: 3 / 3;
+    grid-row: 2 / 3;
+    margin: 0.2rem;
+
+
+}
+
+.paginaIndex2__conteudo___card:nth-child(5) {
+    background:url(./imagens/DJI_0027.JPG) center / cover no-repeat;
+    grid-column: 1 / 2;
     grid-row: 3 / 4;
-    margin: 0.1rem;
+    margin: 0.2rem;
+
+
+}
+
+.paginaIndex2__conteudo___card:nth-child(6) {
+    background:url(./imagens/DJI_0148.JPG) center / cover no-repeat;
+    grid-column: 3 / 3;
+    grid-row: 3/4 ;
+    margin: 0.2rem;
+
+
+}
+
+.paginaIndex2__conteudo___card:nth-child(7) {
+    background:url(./imagens/DJI_0148.JPG) center / cover no-repeat;
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+    margin: 0.2rem;
+
+
+}
+
+.paginaIndex2__conteudo___card:nth-child(8) {
+    background:url(./imagens/DJI_0363.JPG) center / cover no-repeat;
+    grid-column: 3 / 3;
+    grid-row: 4 / 5;
+    margin: 0.2rem;
+
+
+}
+.textArea {
+    display: grid;
+    margin-top: 0px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    grid-column: 2/3;   
+    grid-row: 1/5;
+    text-align: justify;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', Arial, Helvetica, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.textArea__Card1 {
+    background: cornflowerblue;
+    grid-row: 1/1;
+    grid-column: 2/3;
+}
+
+.textArea__Card2 {
+    background: yellow;
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+.textArea__Card___Titulo {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.textArea__Card___Texto {
+    font-style: italic;
 }
 
 
