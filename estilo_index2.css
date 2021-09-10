@@ -31,6 +31,12 @@
     vertical-align: text-bottom;
     font-weight: 1000;
     font-size: large;
+    text-decoration: none;
+    color: black;
+}
+
+.paginaIndex2__cabecalho___linkCabecalho:hover {
+    text-decoration: underline;
 }
 
 .paginaIndex2__HighMiddle {
@@ -118,6 +124,53 @@
 
 
 }
+
+.paginaIndex2__conteudo___card:nth-child(9) {
+    background: center / cover no-repeat;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    margin: 0.2rem;
+
+
+}
+
+.paginaIndex2__conteudo___card:nth-child(10) {
+    background: center / cover no-repeat;
+    grid-column: 2 / 3;
+    grid-row: 2/ 3;
+    margin: 0.2rem;
+}
+
+.paginaIndex2__conteudo___card:nth-child(11) {
+    background: center / cover no-repeat;
+    grid-column: 2 / 3;
+    grid-row: 3/ 4;
+    margin: 0.2rem;
+}
+
+.paginaIndex2__conteudo___card:nth-child(12) {
+    background: center / cover no-repeat;
+    grid-column: 2 / 3;
+    grid-row: 4/ 5;
+    margin: 0.2rem;
+}
+
+.paginaIndex2__conteudo h3 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    margin: 0px 50px 30px 50px;
+    
+}
+
+.paginaIndex2__conteudo p {
+    font-size: 20px;
+    text-align: justify;
+    margin: 0px 50px 0px 50px;
+
+}
+
+/*
 .textArea {
     display: grid;
     margin-top: 0px;
@@ -149,7 +202,7 @@
 
 .textArea__Card___Texto {
     font-style: italic;
-}
+}*/
 
 
 

@@ -5,14 +5,29 @@
     "conteudo"
     "rodape";
     grid-template-columns: auto;
-    grid-template-rows: 50px 100vh auto;
+    grid-template-rows: 250px 100vh auto;
 }
 
-/*
-.cabecalho {
-    grid-area: cabecalho;
-    
-}*/
+.paginaIndex2__cabecalho___linkCabecalho {
+    /*grid-area: cabecalho;*/
+    display: inline;
+    margin-top: 2.5rem;
+    margin-left: 0.5rem;
+    background-color: rgb(206, 194, 194);
+    height: 1.9rem;
+    width: 9rem;
+    border-radius: 10px;    
+    text-align: center;
+    vertical-align: text-bottom;
+    font-weight: 1000;
+    font-size: large;
+    text-decoration: none;
+    color: black;
+}
+
+.paginaIndex2__cabecalho___linkCabecalho:hover {
+    text-decoration: underline;
+}
 
 .conteudo {
     grid-area: conteudo;
