@@ -18,28 +18,51 @@
 .paginaIndex2__cabecalho {
     grid-area: "paginaIndex2__cabecalho";
     background: rgb(236, 233, 227); 
-
-    /* display: inline-flex; */
-
-}
-
-.paginaIndex2__cabecalho___linkCabecalho {
-    display: inline-block;
-    vertical-align: middle;
+    /*position: relative;
+    width: 940px;*/
     
-    margin-top: 2.5rem;
-    margin-left: 0.9rem;
-    text-decoration: underline;
-    height: 1.4rem;
-    width: 9rem;
-    border-radius: 10px;    
-    text-align: center;
-    vertical-align: text-bottom;
-    font-weight:bold;
-    font-size: 23px;
-    text-decoration: none;
-    color: gray
+    
+    
 }
+
+.paginaIndex2__cabecalho___logo {
+    position: absolute;
+    left: -50px;
+    top: -30px;
+   
+}
+
+nav {
+    
+    position: absolute;
+    top: 45px;
+    left: 100px;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 20px;    
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+                
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.paginaIndex2__cabecalho ul {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
 
 .paginaIndex2__cabecalho___linkCabecalho:hover {
     text-decoration: underline;
@@ -217,10 +240,12 @@
 
 
 .paginaIndex2__rodape {
+    position: relative;
     grid-area: "paginaIndex2__rodape";
     height: 80px;
     background: rgb(236, 233, 227); 
     text-align: center;
+    padding-top: 60px;
     
 
 }

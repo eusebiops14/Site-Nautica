@@ -5,7 +5,7 @@
     "conteudo"
     "rodape";
     grid-template-columns: auto;
-    grid-template-rows: 250px 100vh auto;
+    grid-template-rows: 110px 100vh auto;
 }
 
 .paginaIndex2__cabecalho {
@@ -72,6 +72,7 @@
 
 .cardDeImagem:nth-child(1) { /* posicao 1x1 */
     background:url(./imagens/DJI_0007.JPG) center / cover no-repeat;
+  
 }
 
 .cardDeImagem:nth-child(2) {
