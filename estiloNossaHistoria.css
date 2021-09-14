@@ -8,25 +8,43 @@
     grid-template-rows: 250px 100vh auto;
 }
 
+.paginaIndex2__cabecalho {
+    grid-area: "paginaIndex2__cabecalho";
+    background: rgb(236, 233, 227); 
+    display: inline-block;
+    
+
+}
+
+.paginaIndex2__cabecalho ul {
+    display: inline-block;
+}
+
 .paginaIndex2__cabecalho___linkCabecalho {
-    /*grid-area: cabecalho;*/
-    display: inline;
+    display: inline-block;
+    vertical-align: middle;
+    
     margin-top: 2.5rem;
-    margin-left: 0.5rem;
-    background-color: rgb(206, 194, 194);
-    height: 1.9rem;
+    margin-left: 0.9rem;
+    text-decoration: underline;
+    height: 1.4rem;
     width: 9rem;
     border-radius: 10px;    
     text-align: center;
     vertical-align: text-bottom;
-    font-weight: 1000;
-    font-size: large;
+    font-weight:bold;
+    font-size: 23px;
     text-decoration: none;
-    color: black;
+    color: gray
 }
 
 .paginaIndex2__cabecalho___linkCabecalho:hover {
     text-decoration: underline;
+}
+
+.paginaIndex2__HighMiddle {
+    grid-area: "paginaIndex2__HighMiddle";
+    
 }
 
 .conteudo {
