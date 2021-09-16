@@ -1,69 +1,34 @@
-.app {
+.body_NH {
     display: grid;
     grid-template-areas: 
-    "cabecalho"
-    "conteudo"
-    "rodape";
+    "grid-header"
+    "grid-main-NH"
+    "grid-footer";
     grid-template-columns: auto;
-    grid-template-rows: 110px 100vh auto;
+    grid-template-rows: 110px 100vh 100px;
 }
 
-.paginaIndex2__cabecalho {
-    grid-area: "paginaIndex2__cabecalho";
-    background: rgb(236, 233, 227); 
-    display: inline-block;
+/* --------------------Cabecalho------------------------------------*/
+
+header {
+    grid-area: "grid-header";  
+
+}
+
+/*----------------------------------- Conteudo------------------------------ */
+
+.mosaico { /*nao usei a tag main para não conflitar com o css do styleMain*/
+    grid-area: "grid-main-NH";
     
-
-}
-
-.paginaIndex2__cabecalho ul {
-    display: inline-block;
-}
-
-.paginaIndex2__cabecalho___linkCabecalho {
-    display: inline-block;
-    vertical-align: middle;
-    
-    margin-top: 2.5rem;
-    margin-left: 0.9rem;
-    text-decoration: underline;
-    height: 1.4rem;
-    width: 9rem;
-    border-radius: 10px;    
-    text-align: center;
-    vertical-align: text-bottom;
-    font-weight:bold;
-    font-size: 23px;
-    text-decoration: none;
-    color: gray
-}
-
-.paginaIndex2__cabecalho___linkCabecalho:hover {
-    text-decoration: underline;
-}
-
-.paginaIndex2__HighMiddle {
-    grid-area: "paginaIndex2__HighMiddle";
-    
-}
-
-.conteudo {
-    grid-area: conteudo;
-    
-
-}
-
-.rodape {
-    grid-area: rodape;
-    
-}
-
-.mosaico {
-    display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 25% 25% 25% 25% ;
     height: calc(100vh - 50px);
-    
+
+}
+/*----------------------------------- rodapé------------------------------ */
+
+.rodape {
+    grid-area: "grid-footer";    
 }
 
 .cardDeImagem {
@@ -72,6 +37,8 @@
 
 .cardDeImagem:nth-child(1) { /* posicao 1x1 */
     background:url(./imagens/DJI_0007.JPG) center / cover no-repeat;
+    grid-row: 1/2;
+    grid-column: 1/2;
   
 }
 
@@ -107,7 +74,7 @@
 }
 
 .cardDeImagem:nth-child(7) {
-    background: url(./imagens/ee4443fa-9019-416b-8554-ad4c3eed1873.jpg) center / cover no-repeat;
+    background: url(./imagens/familia1.jpg) center / cover no-repeat;
     grid-row: 2/4;
 }
 

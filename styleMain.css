@@ -1,0 +1,219 @@
+body{
+    display: grid;
+    grid-template-areas: 
+        "grid_header"
+        "grid_main"
+        "grid-footer"
+    ;
+    grid-template-columns: auto;
+    grid-template-rows: 110px  160vh 100px;
+    
+     
+    background: rgb(241, 241, 240);
+    
+}
+
+/* --------------------Cabecalho------------------------------------*/
+header {
+    grid-area: "grid_header";
+    background: rgb(236, 233, 227); 
+    /*position: relative;
+    width: 940px;*/
+    
+    
+    
+}
+
+.paginaIndex2__cabecalho___logo {
+    position: absolute;
+    left: -70px;
+    top: -30px;
+   
+}
+
+nav {
+    
+    position: absolute;
+    top: 45px;
+    left: 100px;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 20px;    
+}
+
+nav li:hover {
+    text-decoration: underline;
+    transform:  scale(1.2);
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+    transition: 1s all;
+                
+}
+
+nav a:hover {
+    text-decoration: underline;
+    transform: rotate(360deg) scale(1.5);
+}
+
+header ul {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+/*----------------------------------- Conteudo------------------------------ */
+main {
+    grid-area:"grid_main" ;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: 25% 25% 25% 25%;
+    margin-right: 1rem;
+    /*width: inherit;*/
+}
+
+.card {
+    border-radius: 15px;
+}
+
+.card:hover {
+    
+    transform: scale(1.1);
+}
+
+
+
+.card:nth-child(1) {
+    background:url(./imagens/DJI_0148.JPG) center / cover no-repeat;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    margin: 0.2rem;
+    
+}
+
+.card:nth-child(2) {
+    background:url(./imagens/DJI_0350.JPG) center / cover no-repeat;
+    grid-column: 3 / 3;
+    grid-row: 1 / 2;
+    margin: 0.2rem;
+
+
+}
+
+.card:nth-child(3) {
+    background:url(./imagens/porDoSol1_Editado.jpg) center / cover no-repeat;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    margin: 0.2rem;
+
+
+}
+
+.card:nth-child(4) {
+    background:url(./imagens/IMG_2595_editada.jpg) center / cover no-repeat;
+    grid-column: 3 / 3;
+    grid-row: 2 / 3;
+    margin: 0.2rem;
+
+
+}
+
+.card:nth-child(5) {
+    background:url(./imagens/familia2_editado.jpg) center / cover no-repeat;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    margin: 0.2rem;
+
+
+}
+
+.card:nth-child(6) {
+    background:url(./imagens/IMG_9769.JPEG) center / cover no-repeat;
+    grid-column: 3 / 3;
+    grid-row: 3/4 ;
+    margin: 0.2rem;
+
+
+}
+
+.card:nth-child(7) {
+    background:url(./imagens/DJI_0079.JPG) center / cover no-repeat;
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+    margin: 0.2rem;
+
+
+}
+
+.card:nth-child(8) {
+    background:url(./imagens/DJI_0363.JPG) center / cover no-repeat;
+    grid-column: 3 / 3;
+    grid-row: 4 / 5;
+    margin: 0.2rem;
+
+
+}
+
+.card:nth-child(9) {
+    background: center / cover no-repeat;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    margin: 0.2rem;
+
+
+}
+
+.card:nth-child(10) {
+    background: center / cover no-repeat;
+    grid-column: 2 / 3;
+    grid-row: 2/ 3;
+    margin: 0.2rem;
+}
+
+.card:nth-child(11) {
+    background: center / cover no-repeat;
+    grid-column: 2 / 3;
+    grid-row: 3/ 4;
+    margin: 0.2rem;
+}
+
+.card:nth-child(12) {
+    background: center / cover no-repeat;
+    grid-column: 2 / 3;
+    grid-row: 4/ 5;
+    margin: 0.2rem;
+}
+
+main h3 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    margin: 0px 50px 30px 50px;
+    
+}
+
+main p {
+    font-size: 20px;
+    text-align: justify;
+    margin: 0px 50px 0px 50px;
+
+}
+
+footer {
+    margin: 20px 0 0 0;
+    /*position: relative;*/
+    grid-area: "paginaIndex2__rodape";
+    height: 80px;
+    background: rgb(236, 233, 227); 
+    text-align: center;
+    padding-top: 60px;
+    top: 0;
+
+}

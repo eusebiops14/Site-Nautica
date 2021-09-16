@@ -1,0 +1,50 @@
+.main_servicos {
+   display: inline-block;
+
+}
+
+.main_servicos img {
+    margin: 30px 0 10px 0 ;
+    width: 50%;
+    height: 55%;
+    border-radius: 15px;
+}
+
+.areaDeTexto {
+    margin: 30px 0 10px 25px ;
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    text-align: center;
+}
+
+.areaDeTexto h3 {
+    font-weight: bold;
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+.Card_Texto {
+    margin: 20px 0;
+    padding: 0 0 10px 0;
+    border: solid black;
+    border-radius: 15px;
+}
+
+.Card_Texto:hover {
+    background-color: rgb(223, 219, 219);
+    transform: scale(1.05);
+}
+
+
+.areaDeTexto h4 {
+    font-weight: bold;
+    font-size: 25px;
+    margin: 10px 0;
+    
+}
+
+.areaDeTexto p {
+    text-align: justify;
+    font-size: 25px;
+}
